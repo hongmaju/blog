@@ -8,9 +8,11 @@ keywords:  #Github,Pages,blog
 * 1、注册属于你自己的Github账号
 * 2、创建仓库
     * 在Github首页右上角头像左侧加号点选择 New repositor(新存储库),如：hongmaju.github.io
+    ![Image text](https://raw.githubusercontent.com/hongmaju/blog/master/本地博客/source/_posts/images/GithubPages搭建博客1.jpg)
 * 3、开启Github Pages
     * 点击Choose a theme选择一个主题，然后点select theme
-![Image text](https://raw.githubusercontent.com/hongmaju//blob/master/本地博客/source/_posts/images/Github%20Pages搭建博客1.jpg)
+    ![Image text](https://raw.githubusercontent.com/hongmaju/blog/master/本地博客/source/_posts/images/GithubPages搭建博客2.jpg)
+     ![Image text](https://raw.githubusercontent.com/hongmaju/blog/master/本地博客/source/_posts/images/GithubPages搭建博客3.jpg)
 ## 二：Hexo设置
 * 1、安装Node.js
 * 2、安装Git
