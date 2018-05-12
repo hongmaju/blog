@@ -12,7 +12,7 @@ keywords:  #Github,Pages,blog
 * 3、开启Github Pages
     * 点击Choose a theme选择一个主题，然后点select theme
     ![Image text](https://raw.githubusercontent.com/hongmaju/blog/master/本地博客/source/_posts/images/GithubPages搭建博客2.jpg)
-     ![Image text](https://raw.githubusercontent.com/hongmaju/blog/master/本地博客/source/_posts/images/GithubPages搭建博客3.jpg)
+     ![Image text](https://raw.githubusercontent.com/hongmaju/blog/master/本地博客/source/_posts/images/GithubPages搭建博客3.png)
 ## 二：Hexo设置
 * 1、安装Node.js
 * 2、安装Git
