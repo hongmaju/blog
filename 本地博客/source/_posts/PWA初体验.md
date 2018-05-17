@@ -10,6 +10,7 @@ keywords: # PWA,web
     * Service Worker（ ps：就叫做中间服务商 ）
     * Manifest （应用清单，网页应用程序的图标、是否全屏，启动动画等配置文件）
     * Push Notification（网页应用程序的推送通知）
+
 ## 二：Service Worker和Manifest示例代码
 
 ![Image text](https://raw.githubusercontent.com/hongmaju/blog/master/本地博客/source/_posts/images/PWA初体验1.jpg)
@@ -60,7 +61,7 @@ keywords: # PWA,web
 ```python
 h3{color:#f00;}
 ```
-  * 2、main1.css
+  * 3、main1.css
 ```python
 h3{color:blue;}
 ```
@@ -110,22 +111,22 @@ self.addEventListener('fetch', function (event) {
     我使用的IIS发布
 * 缓存文件sw-toolbox.js和eat.png
 
-![Image text](https://raw.githubusercontent.com/hongmaju/blog/master/本地博客/source/_posts/images/PWA初体验3.jpg)
+![Image text](https://raw.githubusercontent.com/hongmaju/blog/master/本地博客/source/_posts/images/PWA初体验3.png)
 * 中间商拦截修改页面字体颜色，从红色改为蓝色
 
-![Image text](https://raw.githubusercontent.com/hongmaju/blog/master/本地博客/source/_posts/images/PWA初体验4.jpg)
+![Image text](https://raw.githubusercontent.com/hongmaju/blog/master/本地博客/source/_posts/images/PWA初体验4.png)
 
 ## 四：使用ngrok映射到外网
     ngrok使用教程
     https://hongmaju.github.io/2018/05/13/ngrok%E5%B0%86%E6%9C%AC%E5%9C%B0Web%E6%9C%8D%E5%8A%A1%E6%98%A0%E5%B0%84%E5%88%B0%E5%A4%96%E7%BD%91/#more
 ## 五：手机浏览器打开映射后的HTTPS地址，添加到主屏幕
 ![Image text](https://raw.githubusercontent.com/hongmaju/blog/master/本地博客/source/_posts/images/PWA初体验5.jpg)
-![Image text](https://raw.githubusercontent.com/hongmaju/blog/master/本地博客/source/_posts/images/PWA初体验5.jpg)
+![Image text](https://raw.githubusercontent.com/hongmaju/blog/master/本地博客/source/_posts/images/PWA初体验6.jpg)
 
 ## 六：一些解释
 * Service Worker的安装和触发
     * 安装的代码再index.html中
     * 触发的代码再swa.js中
 
-![Image text](https://raw.githubusercontent.com/hongmaju/blog/master/本地博客/source/_posts/images/PWA初体验2.jpg)
+![Image text](https://raw.githubusercontent.com/hongmaju/blog/master/本地博客/source/_posts/images/PWA初体验2.png)
 
