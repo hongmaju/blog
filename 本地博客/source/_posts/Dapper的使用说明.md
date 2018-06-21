@@ -254,7 +254,7 @@ public IEnumerable<Person> QueryMultiple(string connectionString, ref IEnumerabl
                     },
                     book, splitOn: "id");
                 //splitOn: "bookName");
-                return (List<BookWithPerson>)result;
+                return result.ToList();
             }
         }
 
