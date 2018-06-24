@@ -228,8 +228,8 @@ public IEnumerable<Person> QueryMultiple(string connectionString, ref IEnumerabl
 
 * 4.6 联合查询
   ![Image text](https://raw.githubusercontent.com/hongmaju/blog/master/本地博客/source/_posts/images/Dapper的使用说明5.png)
-    ![Image text](https://raw.githubusercontent.com/hongmaju/blog/master/本地博客/source/_posts/images/Dapper的使用说明6.png)
-      ![Image text](https://raw.githubusercontent.com/hongmaju/blog/master/本地博客/source/_posts/images/Dapper的使用说明7.png)
+  ![Image text](https://raw.githubusercontent.com/hongmaju/blog/master/本地博客/source/_posts/images/Dapper的使用说明6.png)
+  ![Image text](https://raw.githubusercontent.com/hongmaju/blog/master/本地博客/source/_posts/images/Dapper的使用说明7.png)
 ~~~
 /// <summary>
         /// join语句,联合查询
@@ -265,8 +265,8 @@ public IEnumerable<Person> QueryMultiple(string connectionString, ref IEnumerabl
 ~~~
 * 4.7 字段映射
   ![Image text](https://raw.githubusercontent.com/hongmaju/blog/master/本地博客/source/_posts/images/Dapper的使用说明8.png)
-    ![Image text](https://raw.githubusercontent.com/hongmaju/blog/master/本地博客/source/_posts/images/Dapper的使用说明9.png)
-      ![Image text](https://raw.githubusercontent.com/hongmaju/blog/master/本地博客/source/_posts/images/Dapper的使用说明10.png)
+  ![Image text](https://raw.githubusercontent.com/hongmaju/blog/master/本地博客/source/_posts/images/Dapper的使用说明9.png)
+  ![Image text](https://raw.githubusercontent.com/hongmaju/blog/master/本地博客/source/_posts/images/Dapper的使用说明10.png)
 ~~~
  public List<BookType> QueryBookType(string connectionString)
         {
